@@ -1,5 +1,4 @@
 # Alogrithm_Graph  
-
 ### BeakJoon 알고리즘 실습
 
 ### 1주차 브루트포스 / 그리디  
@@ -11,3 +10,4 @@
 |[2875](https://www.acmicpc.net/problem/2875)|[code](https://github.com/zojae031/Algorithm/blob/1Week/Zojae031/CodingTest/2875.cpp)||||[code](https://github.com/syli9526/Algorithm-1/blob/1Week/syli9526/BJ2875.cpp)||
 |[1946](https://www.acmicpc.net/problem/1946)|[code](https://github.com/zojae031/Algorithm/blob/1Week/Zojae031/CodingTest/1946.cpp)||||[code](https://github.com/syli9526/Algorithm-1/blob/1Week/syli9526/BJ1946.cpp)||
 |[1051](https://www.acmicpc.net/problem/1051)|[code](https://github.com/zojae031/Algorithm/blob/1Week/Zojae031/CodingTest/1051.cpp)||||[code](https://github.com/syli9526/Algorithm-1/blob/1Week/syli9526/BJ1051.cpp)||
+
