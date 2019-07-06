@@ -1,4 +1,5 @@
 
+
 # Alogrithm
 
 
@@ -14,3 +15,14 @@
 | [2875](https://www.acmicpc.net/problem/2875)   | [code](https://github.com/zojae031/Algorithm/blob/1Week/Zojae031/CodingTest/2875.cpp) | [code](https://github.com/JeongMinGo/Algorithm-1/blob/1Week/JeongMinGo/BJ14717.java) | [code](https://github.com/KMinWoo/Algorithm-1/blob/1Week/KMinWoo/minwoo/minwoo/2875.cpp) | [code](https://github.com/wjdgur778/Algorithm/blob/1Week/wjdgur778/NewBJ/NewBJ/JH_2875.cpp)       | [code](https://github.com/syli9526/Algorithm-1/blob/1Week/syli9526/BJ2875.cpp) | [code](https://github.com/Jung-jaeho/Algorithm/blob/1Week/Jung-jaeho/2875.cpp)       |
 | [1946](https://www.acmicpc.net/problem/1946)   | [code](https://github.com/zojae031/Algorithm/blob/1Week/Zojae031/CodingTest/1946.cpp) | [code](https://github.com/JeongMinGo/Algorithm-1/blob/1Week/JeongMinGo/BJ1946.java) | [code](https://github.com/KMinWoo/Algorithm-1/blob/1Week/KMinWoo/minwoo/minwoo/1946.cpp) | [code](https://github.com/wjdgur778/Algorithm/blob/1Week/wjdgur778/NewBJ/NewBJ/JH_1946.cpp)       | [code](https://github.com/syli9526/Algorithm-1/blob/1Week/syli9526/BJ1946.cpp) |  [code](https://github.com/Jung-jaeho/Algorithm/blob/1Week/Jung-jaeho/1946.cpp)      |
 | [1051](https://www.acmicpc.net/problem/1051)   | [code](https://github.com/zojae031/Algorithm/blob/1Week/Zojae031/CodingTest/1051.cpp) | [code](https://github.com/JeongMinGo/Algorithm-1/blob/1Week/JeongMinGo/BJ1051.java) | [code](https://github.com/KMinWoo/Algorithm-1/blob/1Week/KMinWoo/minwoo/minwoo/1051.cpp) | [code](https://github.com/wjdgur778/Algorithm/blob/1Week/wjdgur778/NewBJ/NewBJ/JH_1051.cpp)       | [code](https://github.com/syli9526/Algorithm-1/blob/1Week/syli9526/BJ1051.cpp) |        |
+### 
+
+### 2주차 스택 / 큐
+|번호|조재영|고정민|김민우|김정혁|임소율|정재호|
+|:--|:---:|:---:|:---:|:---:|:---:|:---:|
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
