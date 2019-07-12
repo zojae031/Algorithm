@@ -1,5 +1,7 @@
 #include<iostream>
+#include <vector>
 #include<stack>
+#include<algorithm>
 using namespace std;
 int findArea(int *area, stack<pair<int, int>> *s) {
 	while (true) {
@@ -14,13 +16,13 @@ int findArea(int *area, stack<pair<int, int>> *s) {
 }
 int main() {
 	int **arr; //y ,x
-
+	vector<int> v;
 	int *buf[2];
 	int num, maxHeight = 0, maxLen = 0;
 	int maxHeightIndex = 0;
 	int x, y;
-	int area = 0;
-	int xCnt = 0, yCnt = 0;
+	int area = 0; 
+	int cnt = 0;
 	cin >> num;
 
 
@@ -53,7 +55,9 @@ int main() {
 		}
 	}
 
-
+	for (int i = 0; i < maxLen; i++) {
+		if (buf[1][i] == maxHeight)v.push_back(buf[0][i]);
+	}
 	stack<pair<int, int>> s;
 	s.push(pair<int, int>(0, 0));
 	int i = 0;
@@ -92,8 +96,25 @@ int main() {
 	}
 
 	area = findArea(&area, &s);
-	area += maxHeight;
+	
+
+	sort(v.begin(), v.end());
+	 area+= maxHeight * (v.back() - v.front()+1);
+
 	cout << area;
 
 	return 0;
 }
+
+/*
+7
+2 4
+11 4
+15 8
+4 6
+5 3
+8 10
+13 10
+
+
+*/
