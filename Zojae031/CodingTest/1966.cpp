@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-	
+
 	int n, m;
 	int num;
 	int data;
@@ -11,24 +11,41 @@ int main() {
 	cin >> num;
 	for (int i = 0; i < num; i++) {
 		int cnt = 0;
+		queue<pair<int, int>> q;
+		int arr[10] = { 0 };
+
 		cin >> n >> m;
-		priority_queue<pair<int, bool>/*stable 비교 연산자 함수 구현*/> q;
+		
 		for (int j = 0; j < n; j++) {
 			cin >> data;
-			bool flag = j == m ? true : false;
-;			q.push(pair<int, bool>(data,flag));
+			arr[data]++;
+			q.push(pair<int, int>(data, j));
 		}
-		while (true) {
-			pair<int, bool> front = q.top();
+		bool flag = true;
+		while (flag) {
+			pair<int, int> front = q.front();
 			q.pop();
-			cnt++;
-			if (front.second) {
-				cout << cnt << endl;
-				break;
+			for (int j = 9; j >= front.first; j--) {
+				if (j == front.first) {
+					cnt++;
+					arr[j] = 0;
+					if (front.second == m) {
+						cout << cnt << endl;
+						flag = false;
+						break;
+					}
+					break;
+				}
+				if (arr[j] > 0) {//만약 나보다 큰 값이 있다면 푸쉬
+					q.push(front);
+					break;
+				}
 			}
+			
+		
 		}
 	}
-	
+
 
 
 	return 0;
