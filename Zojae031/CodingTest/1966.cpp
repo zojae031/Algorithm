@@ -28,7 +28,7 @@ int main() {
 			for (int j = 9; j >= front.first; j--) {
 				if (j == front.first) {
 					cnt++;
-					arr[j] = 0;
+					arr[j]--;
 					if (front.second == m) {
 						cout << cnt << endl;
 						flag = false;

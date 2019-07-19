@@ -5,7 +5,7 @@
 using namespace std;
 int main() {
 	int n, k;
-	int cnt = 0;
+	long long cnt = 0;
 	int deleteIndex = 0;
 	cin >> n>> k;
 	getchar();
