@@ -2,7 +2,7 @@
 
 ### BeakJoon 알고리즘 실습
 
-### 2주차 스택 / 큐
+### 2주차 스택 / 큐 
 
 |번호|조재영|고정민|김민우|김정혁|임소율|정재호|곽나연|
 |:--|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -14,4 +14,7 @@
 |[2164](<https://www.acmicpc.net/problem/2164>)|[code](https://github.com/zojae031/Algorithm/blob/2Week/Zojae031/CodingTest/2164.cpp)||[code](<https://github.com/KMinWoo/Algorithm-1/blob/2Week/KMinWoo/2164.cpp>)|||||
 |[5430](<https://www.acmicpc.net/problem/5430>)|[code](https://github.com/zojae031/Algorithm/blob/2Week/Zojae031/CodingTest/5430.cpp)||[code](<https://github.com/KMinWoo/Algorithm-1/blob/2Week/KMinWoo/5430.cpp>)|||||
 |[1966](<https://www.acmicpc.net/problem/1966>)|[code](https://github.com/zojae031/Algorithm/blob/2Week/Zojae031/CodingTest/1966.cpp)||[code](<https://github.com/KMinWoo/Algorithm-1/blob/2Week/KMinWoo/1966.cpp>)|||||
+
+
+
 
