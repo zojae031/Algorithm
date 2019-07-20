@@ -19,3 +19,4 @@
 |[1966](<https://www.acmicpc.net/problem/1966>)|[code](https://github.com/zojae031/Algorithm/blob/2Week/Zojae031/CodingTest/1966.cpp)||[code](<https://github.com/KMinWoo/Algorithm-1/blob/2Week/KMinWoo/1966.cpp>)||[code](<https://github.com/syli9526/Algorithm-1/blob/2Week/syli9526/BJ1966.cpp>)|[code](https://github.com/Jung-jaeho/Algorithm/tree/2Week/1966.cpp)||
 
 
+
