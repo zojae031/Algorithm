@@ -18,6 +18,9 @@ void dfs(int node, int num) {
     }
 }
 
+/*
+ 이분그래프가 맞는지 확인하는 함수
+ */
 bool check() {
 
     for (int i = 1; i < V; ++i) {

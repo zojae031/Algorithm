@@ -6,6 +6,8 @@
 using namespace std;
 
 const int MAX = 1000;
+
+// 그래프의 네방향으로 움직이기위한 배열
 const int dr[] = {-1, 1, 0, 0};
 const int dc[] = {0, 0, 1, -1};
 
@@ -25,12 +27,14 @@ int bfs() {
 
         size = fire.size();
 
+        // 불 번짐을 먼저 실행
         while (size--) {
             cr = fire.front().first;
             cc = fire.front().second;
 
             fire.pop();
 
+            //불을 네방향으로 이동해줌
             for (int i = 0; i < 4; ++i) {
                 if (cr + dr[i] < 0 || cr + dr[i] >= R || cc + dc[i] < 0 || cc + dc[i] >= C) continue;
                 if (map[cr + dr[i]][cc + dc[i]] == '.' || map[cr + dr[i]][cc + dc[i]] == 'J') {
@@ -42,12 +46,14 @@ int bfs() {
 
         size = user.size();
 
+        // 유저 이동
         while (size--) {
             cr = user.front().first;
             cc = user.front().second;
 
             user.pop();
 
+            //유저를 네방향으로 이동해줌
             for (int i = 0; i < 4; ++i) {
                 if (cr + dr[i] < 0 || cr + dr[i] >= R || cc + dc[i] < 0 || cc + dc[i] >= C) return ++ans;
                 if (map[cr + dr[i]][cc + dc[i]] == '.' ) {
@@ -58,8 +64,7 @@ int bfs() {
         }
         ans++;
     }
-
-
+    // 그래프 내부에 유저가 없는데 리턴이 되지 않았다면 탈출을 못한것
     return -1;
 
 }
