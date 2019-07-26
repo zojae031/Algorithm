@@ -144,7 +144,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\BaekJoon_2019\BaekJoon_2019\JH_1051.cpp">
+<<<<<<< HEAD:wjdgur778/NewBJ/NewBJ.vcxproj
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+=======
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+>>>>>>> 3ce19fb979670f949c69699cd441d2af02ae300d:wjdgur778/NewBJ/NewBJ/NewBJ.vcxproj
     </ClCompile>
     <ClCompile Include="..\..\BaekJoon_2019\BaekJoon_2019\JH_1107.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
