@@ -15,46 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1541.cpp">
+    <ClCompile Include="..\..\BaekJoon_2019\BaekJoon_2019\JH_1107.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="14717.cpp">
+    <ClCompile Include="..\..\BaekJoon_2019\BaekJoon_2019\JH_1541.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2875.cpp">
+    <ClCompile Include="..\..\BaekJoon_2019\BaekJoon_2019\JH_14717.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1051.cpp">
+    <ClCompile Include="..\..\BaekJoon_2019\BaekJoon_2019\JH_2875.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1946.cpp">
+    <ClCompile Include="..\..\BaekJoon_2019\BaekJoon_2019\JH_1946.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1107.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2304.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1725.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1918.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2841.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="3078.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2164.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1966.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10026.cpp">
+    <ClCompile Include="..\..\BaekJoon_2019\BaekJoon_2019\JH_1051.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
