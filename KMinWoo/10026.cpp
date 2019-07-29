@@ -27,13 +27,13 @@ void bfs(int x, int y, int flag) {
 				if (map[y][x] == color && visit[y][x] == false) {
 					visit[y][x] = true;
 					q.push({ x,y });
-				}
+				}// 일반적인 경우에는 기존의 색상과 같은 경우에만 해당 구역에서 다시 탐색을 수행한다.
 				if (flag == 1 && (color == 'R' || color == 'G')) {
 					if ((map[y][x] == 'R' || map[y][x] == 'G') && visit[y][x] == false) {
 						visit[y][x] = true;
 						q.push({ x,y });
 					}
-				}
+				}// 색맹의 경우에는 R,G의 구분을 명확히 하지 못하므로 R,G인경우에는 두색상모드 다시 탐색을 수행한다.
 			}
 		}
 	}
@@ -54,7 +54,8 @@ int main() {
 				ans++;
 			}
 		}
-	}
+	}// 일반적인 경우
+
 	ans2 = 0;
 	for (i = 0; i < n; i++) {
 		for (j = 0; j < n; j++) {
@@ -68,7 +69,7 @@ int main() {
 				ans2++;
 			}
 		}
-	}
+	}// 색맹의 경우
 	printf("%d %d", ans, ans2);
 	return 0;
 }
