@@ -1,6 +1,6 @@
 
 
-# [취업 스터디](https://github.com/sejong-algorithm/Algorithm/blob/master/%EC%B7%A8%EC%97%85%EC%8A%A4%ED%84%B0%EB%94%94/1week.md)
+# [취업 스터디](https://github.com/sejong-algorithm/Algorithm/blob/master/%EC%B7%A8%EC%97%85%EC%8A%A4%ED%84%B0%EB%94%94/study.md)
 
 
 # Alogrithm
